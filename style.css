@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 100 1000;
+    font-stretch: 0% 200%;
+    src: url(https://fonts.gstatic.com/s/robotoflex/v9/NaNeepOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGfttPZktqc2VdZ80KvCLZaPcSBZtOx2MifRuWR28sPJtUMbsFEK6cRrleUx9Xgbm3WLHa_F4Ep4Fm0PN19Ik5Dntczx0wZGzhPlL1YNMYKbv9_1IQXOw7AiUJVXpRJ6cXW4O8TNGoXjC79QRyaLshNDUf9-EmFw.woff2) format('woff2');
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    background-color: #1d2937;
+}
+
+.acao_bloc, .botao{
+    background-color: #3882f6;
+}
+
+.body_cita {
+    background-color: #e5e7eb;
+}
+
+.header_titu{
+    font: 
+}
