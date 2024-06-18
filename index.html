@@ -3,91 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
 </head>
-
 <body>
-    <header class="header container_col">
-        <div class="header_head container_lin">
-            <div class="header_logo">Header logo</div>
-            <ul class="header_link container_lin">
+    <header class="header cont_col"> 
+        <div class="header_head cont_row">
+            <h3 class="header_logo">Header logo</h3>
+            <ul class="header_link cont_row">
                 <li>header link one</li>
                 <li>header link two</li>
                 <li>header link three</li>
             </ul>
         </div>
-        <div class="header_body container_lin">
-            <div class="header_info container_col">
-                <h1 class="header_titu">This website is awesome</h1>
-                <p class="header_text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <div class="botao container_lin">
-                    <a href="#" class="botao_text">Sign up</a>
+        <div class="header_body cont_row">
+            <div class="header_text cont_col">
+                <h1 class="header_tittle">
+                    This website is awesome
+                </h1>
+                <div class="header_parag">
+                    This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+                </div>
+                <div class="sign_button">
+                    <a href="#" class="button_text">Sign up</a>
                 </div>
             </div>
-            <div class="header_imag container_lin"> 
-                <img src="imagens/imagem_cab.jpg" alt="" id="header_imag">
+            <div class="header_img">
+                Header Image
             </div>
         </div>
     </header>
-
-     <div class="body container_col">
-        <div class="body_info container_col">
-            <h2 class="info_titu">
-                Some random information
-            </h2>
-            <div class="info_imag container_lin">
-                <div>
-                    <div  class="img_bloco">
-                        <img src="" alt="">
-                    </div>
-                    <p class="desc_imag">this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <div class="img_bloco">
-                        <img src="" alt="">
-                    </div>
-                    <p class="desc_imag">this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <div class="img_bloco">
-                        <img src="" alt="">
-                    </div>
-                    <p class="desc_imag">this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <div class="img_bloco">
-                        <img src="" alt="">
-                    </div>
-                    <p class="desc_imag">this is some subtext under an illustration or image</p>
-                </div>
+    <section class="info cont_col">
+        <h2 class="info_head">
+            Some random information
+        </h2>
+        <div class="info_body cont_row">
+            <div class="block_img cont_col">
+                <figure>
+                    <img src="" alt="" class="info_img" >
+                    
+                    <figcaption class="img_subtext">
+                        This is some subtext under an ilustration or image
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="block_img cont_col">
+                <figure>
+                    <img src="" alt="" class="info_img">
+                    <figcaption class="img_subtext">
+                        This is some subtext under an ilustration or image
+                    </figcaption>
+                </figure>
+                
+            </div>
+            <div class="block_img cont_col">
+                <figure>
+                    <img src="" alt="" class="info_img">
+                    <figcaption class="img_subtext">
+                        This is some subtext under an ilustration or image
+                    </figcaption>
+                </figure>
+                
+            </div>
+            <div class="block_img cont_col">
+                <figure>
+                    <img src="" alt="" class="info_img">
+                    <figcaption class="img_subtext">
+                        This is some subtext under an ilustration or image
+                    </figcaption>
+                </figure>
+            </div>
             </div>
         </div>
-        <div class="body_cita">
-            <blockquote class="citacao">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae unde praesentium, optio possimus atque! Iste temporibus deserunt ducimus, dignissimos ipsum beatae et. Hic sequi ex voluptatibus, qui necessitatibus amet.
-            </blockquote>
-            <p class="citacao_auto">
-                - Thor, God of Thunder
-            </p>
-        </div>
-        <div class="body_acao">
-            <div class="acao_bloc">
-                <div acao_text>
-                    <h3 class="acao_titu">
-                        Call to action! It's time!
-                    </h3>
-                    <p class="acao_text">Sign up for our product by clicking that button right over there</p>
+    </section>
+    <section class="quote cont_row">
+        <figure class="quote_block cont_col">
+            <blockquote class="quote_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto a assumenda eligendi sed sequi expedita quod? Fugiat obcaecati quod doloremque, illum quia, nisi itaque rerum dignissimos dolores, deserunt harum enim?</blockquote>
+            <figcaption class="quote_author cont_row">Quote Author</figcaption>
+        </figure>
+    </section>
+    <section class="call cont_col"> 
+        <div class="call_box cont_row">
+            <div class="call_content cont_col">
+                <div class="call_tittle">
+                    Call to action! It's time!
                 </div>
-                <div class="botao">
-                    <a href="#" class="botao_text">Sign up</a>
+                <div class="call_text">
+                    Sign up for our product by clicking the button right over there
                 </div>
             </div>
+            <div class="sign_button">
+                <a href="#" class="button_text">Sign up</a>
+            </div>
         </div>
-    </div>
-
+    </section>
     <footer class="footer">
-        <p class="footer_text"> Copyright The Odin Project 2021</p>
+        <div class="footer_text">
+            Copyright The Odin Project 2021
+        </div>
     </footer>
+
 </body>
 </html>
